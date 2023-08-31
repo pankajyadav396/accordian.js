@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background-color: #F7F7F7;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.pt-43 {
+    padding-top: 43px;
+}
+
+.box {
+    display: flex;
+    min-width: 540px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    padding: 24px 21px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: var(--gray, #808080);
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.accordian-item {
+    min-width: 498px;
+    padding: 17px 11px 18px 19px;
+    border-radius: 5px;
+    border: 1px solid#E6E6E6;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.group1 {
+    display: flex;
+    align-items: center;
+}
+
+.accordian-para {
+    color: var(--gray, #808080);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 468px;
+    display: none;
+}
+
+.accordian-item.active .accordian-para {
+    display: block;
+    min-width: 468px;
+    border-radius: 5px;
+}
+
+.accordian-item.active {
+    border: 1px solid var(--blue, #128DFF) !important;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.active .svg1 {
+    rotate: 180deg;
+}
+
+.active .group1 {
+    color: black;
+}
+
+.group1 {
+    color: var(--gray, #808080);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
